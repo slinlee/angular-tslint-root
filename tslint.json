@@ -1,5 +1,4 @@
 {
-  "extends": ["codelyzer"],
   "rules": {
     "arrow-return-shorthand": true,
     "callable-types": true,
@@ -114,13 +113,6 @@
       "check-operator",
       "check-separator",
       "check-type"
-    ],
-    "no-output-on-prefix": true,
-    "no-input-rename": true,
-    "no-output-rename": true,
-    "use-life-cycle-interface": true,
-    "use-pipe-transform-interface": true,
-    "component-class-suffix": true,
-    "directive-class-suffix": true
+    ]
   }
 }
